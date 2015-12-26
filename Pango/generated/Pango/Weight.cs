@@ -12,7 +12,8 @@ namespace Pango {
 
 		Thin = 100,
 		Ultralight = 200,
-		Light = 300,
+        Light = 300,
+        Semilight = 350,
 		Book = 380,
 		Normal = 400,
 		Medium = 500,
