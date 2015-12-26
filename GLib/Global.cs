@@ -31,8 +31,8 @@ namespace GLib {
 		//this is a static class
 		private Global () {}
 
-        internal const string GLibNativeDll = "NativeGlib.dll";
-        internal const string GObjectNativeDll = "NativeGObject.dll";
+		internal const string GLibNativeDll = "libglib-2.0.so";
+		internal const string GObjectNativeDll = "libgobject-2.0.so";
 
 		internal static bool IsWindowsPlatform {
 			get {

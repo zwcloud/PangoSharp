@@ -197,3 +197,4 @@ FakesAssemblies/
 
 # Binary output
 *.lib
+*.so
