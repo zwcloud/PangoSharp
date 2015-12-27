@@ -23,3 +23,21 @@ Project PangoSharp is licensed under the LGPL v3 license.
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 The C# code files in project GLib and Pango is orginally Taken from Mono/[GTK#](https://github.com/mono/gtk-sharp/tree/master/pango)(Version 3.0.0), licensed under the GNU LGPL.
+
+# Native dependencies
+
+## Cairo
+* libcairo.so
+
+## Glib
+* libglib-2.0.so
+* libgobject-2.0.so
+
+## Pango
+* libpango-1.0.so
+* libpangocairo-1.0.so
+* libpangosharpglue-3.so
+
+*PS: 
+Version of these so files is not checked for now.
+But I'm sure their version should be greater than that used in Gtk# 2.12.*
