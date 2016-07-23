@@ -23,7 +23,7 @@ namespace Demo01_Shape
 			text = args[0];
             fileName = args[1];
 
-            surface = new Cairo.ImageSurface(Cairo.Format.ARGB32, 2*RADIUS, 2*RADIUS);
+            surface = new Cairo.ImageSurface(Cairo.Format.Argb32, 2*RADIUS, 2*RADIUS);
 
             cr = new Cairo.Context(surface);
 

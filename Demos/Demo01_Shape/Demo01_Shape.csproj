@@ -40,8 +40,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\ZWCloud.Cairo\Cairo\Cairo.csproj">
-      <Project>{3C49A7E8-1708-4930-B741-8648848EC084}</Project>
+    <ProjectReference Include="..\..\..\CairoSharp\Cairo\Cairo.csproj">
+      <Project>{3c49a7e8-1708-4930-b741-8648848ec084}</Project>
       <Name>Cairo</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\GLib\GLib.csproj">
